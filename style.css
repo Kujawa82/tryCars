@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 3;
+}
+
+.background_video {
+  height: 99.5vh;
+  width: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.login_container {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  color: rgb(3, 3, 82);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.login_title {
+  font-size: 55px;
+}
+
+.login_paragraph {
+  margin-top: 50px;
+  font-size: 30px;
+}

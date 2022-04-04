@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main-container">
+      <div class="heading">
+        <div>
+          <label for="brand_of_car">Podaj markę auta:</label>
+          <select name="vehicle" id="brand_of_car">
+            <option id="try" value="">wszystkie</option>
+            <option id="try" value="Audi">Audi</option>
+            <option id="try" value="BMW">BMW</option>
+            <option id="try" value="Volkswagen">Volkswagen</option>
+          </select>
+          <button id="search_button">Pokaż</button>
+        </div>
+
+        <button id="chosen_button">Auta przeglądane</button>
+      </div>
+      <video
+        class="background_video"
+        src="video/traffic.mp4"
+        autoplay
+        loop
+        muted
+      ></video>
+      <div class="login_container">
+        <h1 class="login_title">Szczęśliwej drogi już czas</h1>
+
+        <p class="login_paragraph">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure quas
+          laborum expedita placeat impedit architecto nobis!
+        </p>
+      </div>
+    </div>
+    <div id="cars-container"></div>
+    <div id="form-container"></div>
+    <div id="summary-container"></div>
+  </body>
+  <script src="index.js"></script>
+</html>
